@@ -31,13 +31,12 @@ def confirm_ingredients():  # String methods
     print(ingredients)
     # 'milk' is still in there! To save our changes to the string, we'll need to update the variable.
     # 2.5 Update our `ingredients` variable using the replace method, the same way we printed it out in step 2.2
-    ingredients.replace('milk', 'butter')
+    ingredients = ingredients.replace('milk', 'butter')
     # 2.6 Print `ingredients` to make sure the change stuck this time.
     print(ingredients)
     # 2.7 That looks better. Let's make it official: use another string method to 
     # print the string in the `ingredients` variable in all-caps now that it's right.
     print(ingredients.upper())
-
 def favorite_bake():  # User Input/Type conversion
     # The beauty of these ingredients is that you can make tons with them. 
     # Let's get some user input to decide what to bake!
